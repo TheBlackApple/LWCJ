@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TaskEvent" syncable="YES">
+        <attribute name="mAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mAuditExplain" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mAuditState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDeadLine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mEndPos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mGather" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mGatherTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="mLayer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLineCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLineName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPtx" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mPty" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mShape" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="mStartPos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TaskEvent" positionX="-45" positionY="0" width="128" height="360"/>
+    </elements>
+</model>

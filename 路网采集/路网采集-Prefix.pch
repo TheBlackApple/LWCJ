@@ -1,0 +1,52 @@
+ //
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+//http://113.140.70.184:7071
+//192.168.0.112:7001
+#define requestHeader @"http://113.140.70.184:7071/giscjapp/rest/"
+
+#define mapKey @"0zjDNTkWMP91mIBHdwkyuqDt"
+
+
+//// 登录接口
+//public static final String LOGIN = SERVERIP + "/user/login";
+//// 上传点的数据接口
+//public static final String UPLOADPOINT = SERVERIP + "/gps/addPoint";
+//// 上传线的数据接口
+//public static final String UPLOADLINE = SERVERIP + "/gps/addLine”;
+
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import"iToast.h"
+#endif
+
+
+/**
+ 预定义系统的高度和宽度
+ */
+#ifndef HEIGHT
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#endif
+
+#ifndef WIDTH
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#endif
+
+
+
+/**
+ 预定义系统版本
+ */
+#ifndef SYSTEMVERSION
+#define SYSTEMVERSION [[UIDevice currentDevice] systemVersion]
+#endif
